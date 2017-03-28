@@ -128,8 +128,7 @@ for a more solid alternate to the following `virsh` method. Use either the
 * For better mouse behavior, install https://github.com/pmj/QemuUSBTablet-OSX and
   configure QEMU to use the "usb-tablet" absolute pointing device.
 
-* To get sound on your virtual Mac, install the VoodooHDA driver from
-  [here](https://sourceforge.net/projects/voodoohda/files/).
+* To get sound on your virtual Mac, see the "Virtual Sound Device" in [notes](notes.md).
 
 ### Debugging
 
@@ -186,7 +185,11 @@ for a more solid alternate to the following `virsh` method. Use either the
 
 * If the App Store doesn't work, check the [notes file](notes.md) for instructions on how to solve this.
 
+* If you are getting "Dont_Steal_MacOS" related errors, see `FakeSMC installation` section in [notes file](notes.md).
+
 ### Credits
+
+* RehabMan, th3joker and others - FakeSMC.kext, https://bitbucket.org/RehabMan
 
 * Chuck Remes (chuckremes) - better documentation
 
